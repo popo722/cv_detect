@@ -1,6 +1,6 @@
 # cv_detect
 
-# RaspBerryPi3 python3 Setupè‡
+# RaspBerryPi3 python3+OpenCV Setupæ‰‹é †
 $ sudo apt install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev  
 $ sudo apt install python3-pip  
   
@@ -13,11 +13,11 @@ $ wget https://github.com/mt08xx/files/raw/master/opencv-rpi/libopencv3_3.4.0-20
 $ sudo apt install -y ./libopencv3_3.4.0-20180115.1_armhf.deb  
 $ sudo ldconfig  
   
-# ƒ‰ƒYƒpƒCƒJƒƒ‰‚ğƒ}ƒEƒ“ƒg
+# ãƒ©ã‚ºãƒ‘ã‚¤ã‚«ãƒ¡ãƒ©ã‚’ãƒã‚¦ãƒ³ãƒˆ
 $ sudo modprobe bcm2835-v4l2   
 $ ls /dev/video*  
 /dev/video0  
   
-# Às
+# å®Ÿè¡Œ
 $ python3 personal_detect.py  
-EscƒL[‚ÅI—¹  
+Escã‚­ãƒ¼ã§çµ‚äº†  
